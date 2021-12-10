@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1639117288,,"wq"
+|2,0,1639149293,,"wq"
 :u
 |2,0,1639090245,,"u"
 :Wq
@@ -62,30 +62,38 @@
 |3,0,9,1,1,0,1639088459,"#- name: Update the /etc/hosts file with node name"
 
 # File marks:
-'0  6  22  ~/roles/server_config/handlers/main.yml
-|4,48,6,22,1639117288,"~/roles/server_config/handlers/main.yml"
-'1  23  0  ~/roles/server_config/tasks/docker_init.yml
-|4,49,23,0,1639117150,"~/roles/server_config/tasks/docker_init.yml"
+'0  2  0  ~/roles/server_config/tasks/ntp_init.yml
+|4,48,2,0,1639149293,"~/roles/server_config/tasks/ntp_init.yml"
+'1  6  22  ~/roles/server_config/handlers/main.yml
+|4,49,6,22,1639117288,"~/roles/server_config/handlers/main.yml"
 '2  23  0  ~/roles/server_config/tasks/docker_init.yml
-|4,50,23,0,1639117132,"~/roles/server_config/tasks/docker_init.yml"
-'3  15  43  ~/roles/server_config/tasks/docker_init.yml
-|4,51,15,43,1639116922,"~/roles/server_config/tasks/docker_init.yml"
+|4,50,23,0,1639117150,"~/roles/server_config/tasks/docker_init.yml"
+'3  23  0  ~/roles/server_config/tasks/docker_init.yml
+|4,51,23,0,1639117132,"~/roles/server_config/tasks/docker_init.yml"
 '4  15  43  ~/roles/server_config/tasks/docker_init.yml
 |4,52,15,43,1639116922,"~/roles/server_config/tasks/docker_init.yml"
 '5  15  43  ~/roles/server_config/tasks/docker_init.yml
 |4,53,15,43,1639116922,"~/roles/server_config/tasks/docker_init.yml"
 '6  15  43  ~/roles/server_config/tasks/docker_init.yml
 |4,54,15,43,1639116922,"~/roles/server_config/tasks/docker_init.yml"
-'7  18  0  ~/roles/server_config/tasks/config_dns.yml
-|4,55,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
-'8  2  0  ~/roles/server_config/handlers/main.yml
-|4,56,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
+'7  15  43  ~/roles/server_config/tasks/docker_init.yml
+|4,55,15,43,1639116922,"~/roles/server_config/tasks/docker_init.yml"
+'8  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,56,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
 '9  2  0  ~/roles/server_config/handlers/main.yml
 |4,57,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
 
 # Jumplist (newest first):
+-'  2  0  ~/roles/server_config/tasks/ntp_init.yml
+|4,39,2,0,1639149293,"~/roles/server_config/tasks/ntp_init.yml"
+-'  1  0  ~/roles/server_config/tasks/ntp_init.yml
+|4,39,1,0,1639149187,"~/roles/server_config/tasks/ntp_init.yml"
 -'  6  22  ~/roles/server_config/handlers/main.yml
 |4,39,6,22,1639117288,"~/roles/server_config/handlers/main.yml"
+-'  6  22  ~/roles/server_config/handlers/main.yml
+|4,39,6,22,1639117288,"~/roles/server_config/handlers/main.yml"
+-'  2  0  ~/roles/server_config/handlers/main.yml
+|4,39,2,0,1639117156,"~/roles/server_config/handlers/main.yml"
 -'  2  0  ~/roles/server_config/handlers/main.yml
 |4,39,2,0,1639117156,"~/roles/server_config/handlers/main.yml"
 -'  23  0  ~/roles/server_config/tasks/docker_init.yml
@@ -93,6 +101,14 @@
 -'  23  0  ~/roles/server_config/tasks/docker_init.yml
 |4,39,23,0,1639117150,"~/roles/server_config/tasks/docker_init.yml"
 -'  23  0  ~/roles/server_config/tasks/docker_init.yml
+|4,39,23,0,1639117150,"~/roles/server_config/tasks/docker_init.yml"
+-'  23  0  ~/roles/server_config/tasks/docker_init.yml
+|4,39,23,0,1639117150,"~/roles/server_config/tasks/docker_init.yml"
+-'  23  0  ~/roles/server_config/tasks/docker_init.yml
+|4,39,23,0,1639117132,"~/roles/server_config/tasks/docker_init.yml"
+-'  23  0  ~/roles/server_config/tasks/docker_init.yml
+|4,39,23,0,1639117132,"~/roles/server_config/tasks/docker_init.yml"
+-'  23  0  ~/roles/server_config/tasks/docker_init.yml
 |4,39,23,0,1639117132,"~/roles/server_config/tasks/docker_init.yml"
 -'  23  0  ~/roles/server_config/tasks/docker_init.yml
 |4,39,23,0,1639117132,"~/roles/server_config/tasks/docker_init.yml"
@@ -105,6 +121,18 @@
 -'  15  43  ~/roles/server_config/tasks/docker_init.yml
 |4,39,15,43,1639117045,"~/roles/server_config/tasks/docker_init.yml"
 -'  15  43  ~/roles/server_config/tasks/docker_init.yml
+|4,39,15,43,1639117045,"~/roles/server_config/tasks/docker_init.yml"
+-'  15  43  ~/roles/server_config/tasks/docker_init.yml
+|4,39,15,43,1639117045,"~/roles/server_config/tasks/docker_init.yml"
+-'  15  43  ~/roles/server_config/tasks/docker_init.yml
+|4,39,15,43,1639117045,"~/roles/server_config/tasks/docker_init.yml"
+-'  15  43  ~/roles/server_config/tasks/docker_init.yml
+|4,39,15,43,1639117045,"~/roles/server_config/tasks/docker_init.yml"
+-'  15  43  ~/roles/server_config/tasks/docker_init.yml
+|4,39,15,43,1639116922,"~/roles/server_config/tasks/docker_init.yml"
+-'  15  43  ~/roles/server_config/tasks/docker_init.yml
+|4,39,15,43,1639116922,"~/roles/server_config/tasks/docker_init.yml"
+-'  15  43  ~/roles/server_config/tasks/docker_init.yml
 |4,39,15,43,1639116922,"~/roles/server_config/tasks/docker_init.yml"
 -'  15  43  ~/roles/server_config/tasks/docker_init.yml
 |4,39,15,43,1639116922,"~/roles/server_config/tasks/docker_init.yml"
@@ -120,6 +148,50 @@
 |4,39,1,0,1639116762,"~/roles/server_config/tasks/docker_init.yml"
 -'  1  0  ~/roles/server_config/tasks/docker_init.yml
 |4,39,1,0,1639116762,"~/roles/server_config/tasks/docker_init.yml"
+-'  1  0  ~/roles/server_config/tasks/docker_init.yml
+|4,39,1,0,1639116762,"~/roles/server_config/tasks/docker_init.yml"
+-'  1  0  ~/roles/server_config/tasks/docker_init.yml
+|4,39,1,0,1639116762,"~/roles/server_config/tasks/docker_init.yml"
+-'  1  0  ~/roles/server_config/tasks/docker_init.yml
+|4,39,1,0,1639116762,"~/roles/server_config/tasks/docker_init.yml"
+-'  1  0  ~/roles/server_config/tasks/docker_init.yml
+|4,39,1,0,1639116762,"~/roles/server_config/tasks/docker_init.yml"
+-'  1  0  ~/roles/server_config/tasks/docker_init.yml
+|4,39,1,0,1639116762,"~/roles/server_config/tasks/docker_init.yml"
+-'  1  0  ~/roles/server_config/tasks/docker_init.yml
+|4,39,1,0,1639116762,"~/roles/server_config/tasks/docker_init.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
+-'  18  0  ~/roles/server_config/tasks/config_dns.yml
+|4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
 -'  18  0  ~/roles/server_config/tasks/config_dns.yml
 |4,39,18,0,1639092881,"~/roles/server_config/tasks/config_dns.yml"
 -'  18  0  ~/roles/server_config/tasks/config_dns.yml
@@ -184,108 +256,43 @@
 |4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
 -'  20  38  ~/roles/server_config/tasks/config_dns.yml
 |4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  2  0  ~/roles/server_config/handlers/main.yml
-|4,39,2,0,1639092850,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  3  39  ~/roles/server_config/handlers/main.yml
-|4,39,3,39,1639092843,"~/roles/server_config/handlers/main.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
--'  23  38  ~/roles/server_config/tasks/config_dns.yml
-|4,39,23,38,1639092835,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
+-'  20  38  ~/roles/server_config/tasks/config_dns.yml
+|4,39,20,38,1639092868,"~/roles/server_config/tasks/config_dns.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/roles/server_config/tasks/ntp_init.yml
+	*	1639149293	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	2	0
 
 > ~/roles/server_config/handlers/main.yml
 	*	1639117287	0
