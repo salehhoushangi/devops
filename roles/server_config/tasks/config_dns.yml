@@ -1,0 +1,19 @@
+#Configure SHECKAN dns to bypass sanction
+
+- name: configure DNS1 (set First sheckan ip address)
+  lineinfile:
+         path: /etc/netplan/50-cloud-init.yaml
+         line: '                - 185.51.200.2'
+         insertbefore: .*10.10.0.2
+
+- name: configure DNS2 (set  Seconde sheckan ip address)
+  lineinfile:
+         path: /etc/netplan/50-cloud-init.yaml
+         line: '                - 178.22.122.100'
+         insertbefore: .*10.10.0.2
+
+- name: Apply netplan
+  command: sudo netplan apply
+  ignore_errors: true
+
+

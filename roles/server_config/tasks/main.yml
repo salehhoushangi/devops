@@ -1,0 +1,14 @@
+---
+# tasks file for server_config
+ - name: host file update - Local DNS setup across all the servers 
+   import_tasks: config_host.yml
+
+
+ - name: Setup SHECKAN DNS as secondary and tertiary DNS server
+   import_tasks: config_dns.yml
+
+ - name: installtion DCKER in all server
+   import_tasks: docker_init.yml
+   
+   #- name: installation NTP server and setup all node woth Chrony
+   #import_tasks: ntp_init
