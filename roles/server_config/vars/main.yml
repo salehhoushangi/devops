@@ -1,2 +1,6 @@
 ---
 # vars file for server_config
+docker_packages: 
+ - docker-ce
+ - docker-ce-cli
+ - containerd.io

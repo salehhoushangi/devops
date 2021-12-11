@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  ntp-server:
+      image: ntp-server:v0.1
+      container_name: ntp-server
+      network: host
+      port: 123:123
+      volumes:
+        - /etc/localtime:/etc/localtime:ro

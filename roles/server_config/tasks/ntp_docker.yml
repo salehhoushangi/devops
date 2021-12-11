@@ -1,0 +1,7 @@
+
+ - name: Build  Docker image for ntp server
+   docker_image:
+         name: ntpserver:v1:0
+         build:
+           path: Build_img/Dockerfile.yml
+           source: build
