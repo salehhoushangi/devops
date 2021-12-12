@@ -10,5 +10,7 @@
  - name: installtion DCKER in all server
    import_tasks: docker_init.yml
    
+ - name: installtion DCKER_COMPOSE  in all server
+   import_tasks: docker_compose.yml
    #- name: installation NTP server and setup all node woth Chrony
    #import_tasks: ntp_init

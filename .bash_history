@@ -259,3 +259,209 @@ vim /home/ubuntu/roles/server_config/handlers/main.yml
 ansible-playbook server.yaml 
 vim /home/ubuntu/roles/server_config/tasks/config_dns.yml 
 ansible-playbook server.yaml 
+worker1
+rm /home/ubuntu/roles/server_config/templates/hosts.template 
+
+rm /home/ubuntu/roles/server_config/tasks/docker_init.yml 
+vim /home/ubuntu/roles/server_config/tasks/docker_init.yml 
+ansible-playbook server.yaml 
+vim /home/ubuntu/roles/server_config/handlers/main.yml 
+vim /home/ubuntu/roles/server_config/tasks/docker_init.yml 
+vim /home/ubuntu/roles/server_config/handlers/main.yml 
+ansible-playbook server.yaml 
+ls
+git init
+ls -ltrh
+git add .
+git commit -m "server_config ansible role"
+git config --global user.email "salehstudent@gmail.com"
+git commit -m "server_config ansible role"
+git remote add origin https://github.com/salehhoushangi/devops.git
+git branch -M main
+git push -u origin main
+git branch -M main
+git push -u origin main
+gpg --gen-key
+ls
+ls -ltrh
+gpg --list-secret-keys --keyid-format=long
+gpg --armor --export BA7AD188AEA3A6C6
+git push -u origin main
+ssh -T git@github.com
+ls -ltrh
+git push -u origin main
+git@github.com:salehhoushangi/devops.git
+git push -u origin main
+git remote add origin git@github.com:salehhoushangi/devops.git
+git push -u origin main
+git remote add origin https://github.com/salehhoushangi/devops.git
+git branch -M main
+git push -u origin main
+git branch -a
+git remote rm origin
+git branch -a
+git remote show origin
+git remote remove origin
+git remote add origin git@github.com:salehhoushangi/devops.git
+git push -u origin main
+ls
+git add .
+git commit -m "server_config ansible role"
+git push -u origin main
+git push 
+git push origin main
+history 
+git push -u origin master
+git branch -a
+git push
+exit
+vim /home/ubuntu/roles/server_config/tasks/ntp_init.yml 
+clear
+ssh-keygen-f ~/.ssh/id_rsa -y > ~/.ssh/id_rsa.pub
+ssh-keygen -f ~/.ssh/id_rsa -y > ~/.ssh/id_rsa.pub
+cat /home/ubuntu/.ssh/id_rsa.pub 
+ls
+sudo -i 
+history  | grep git
+date
+timdatectl
+timedatectl
+ls
+cd ..
+ls
+cd ubuntu/
+ls
+mkdir docker_image
+cd docker_image/
+
+mv dockerfile.yaml Dockerfile.yml
+vim Dockerfile.yml 
+sudo su
+ls
+cp docker_image/Dockerfile.yml  roles/server_config/templates/hosts.j2 
+vim roles/server_config/tasks/config_dns.yml 
+vim roles/server_config/tasks/config_host.yml 
+ansible-galaxy search ntp
+clear
+cd roles/server_config/
+ls
+cp ../../docker_image/Dockerfile.yml templates/
+vim templates/Dockerfile.yml 
+ls
+mkdir Build_img
+ls
+fv 
+cd Build_img/
+ls
+mv ../templates/Dockerfile.yml .
+ls
+vim Dockerfile.yml 
+pwd
+cd ..
+ls
+cd templates/
+ls
+vim chrony_server.conf
+vim chrony_client.conf
+cd ..
+cd tasks/
+ls
+vim ntp_docker.yml
+cd ..
+ls
+vim tasks/ntp_docker.yml 
+ls
+vim Build_img/Dockerfile.yml 
+cd templates/
+pwd
+vim ../Build_img/Dockerfile.yml 
+ls /home/ubuntu/roles/server_config/templates/chrony_server.conf 
+ls -ltrh  /home/ubuntu/roles/server_config/templates/chrony_server.conf 
+cd ..
+vim tasks/ntp_docker.yml 
+cp templates/chrony_server.conf Build_img/
+cd Build_img/
+ls
+vim Dockerfile.yml 
+pwd
+vi Dockerfile.yml 
+ls
+mv Dockerfile.yml Dockerfile
+ls
+docker build -t ntp-test-server .
+sudo docker build -t ntp-test-server .
+docker login
+sudo -i 
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+cd cd server_config/
+ls
+cat  server_config/tasks/config_host.yml 
+ls
+cat server_config/templates/hosts.j2 
+vim server_config/templates/hosts.j2 
+ls server_config/templates/hosts.j2 
+vim server_config/templates/hosts.j2 
+ls
+cd ..
+ls
+ansible-playbook server.yaml 
+proxy 
+proxy3
+storage3
+ls
+cd ..
+ls
+cd ubuntu/
+ls
+cd roles/server_config/
+ls
+clear
+tree
+ls
+cd roles/
+git push
+git commit -m "install dockerce-cli and ..."
+git add .
+git commit -m "install dockerce-cli and ..."
+git push
+cleer
+clear
+sudo -i 
+cd /home/ubuntu/roles/server_config/
+ls
+git add .
+git commit "12-dec-2021"
+history | grep git
+git commit -m  "12-dec-2021"
+ls
+cd ..
+ls
+git add .
+git commit -m  "12-dec-2021"
+git push 
+sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+ls
+cd ..
+ls
+cd ..
+ls
+cd ubuntu/
+ls
+mkdir docker-compose
+cd docker-compose/
+ls
+sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+docker ps -a
+sudo docker ps -a
+docker stop ntp-server:v0.1
+sudo docker stop ntp-server:v0.1
+sudo docker stop b5ebd7e53fe1
+sudo docker ps -a
+docker images ls
+sudi docker images ls
+sudo -i 

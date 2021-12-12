@@ -1,2 +1,7 @@
 ---
 # defaults file for server_config
+# Docker Compose options.
+docker_install_compose: true
+docker_compose_version: "1.27.0"
+docker_compose_url: https://github.com/docker/compose/releases/download/{{ docker_compose_version }}/docker-compose-Linux-x86_64
+docker_compose_path: /usr/local/bin/docker-compose
