@@ -465,3 +465,278 @@ sudo docker ps -a
 docker images ls
 sudi docker images ls
 sudo -i 
+cd /home/ubuntu/roles/server_config/
+ls
+cd tasks/
+ls
+vim docker_compose.yml
+cd ..
+cd defaults/
+ls
+vim main.yml 
+cd ..
+vim tasks/docker_compose.yml 
+vim defaults/main.yml 
+vim tasks/docker_init.yml 
+vim vars/main.yml 
+vim tasks/docker_compose.yml 
+vim tasks/docker_init.yml 
+vim tasks/docker_compose.yml 
+vim tasks/main.yml 
+cd ..
+ls
+cd ..
+ls
+ansible-playbook server.yaml 
+docker-compose --version
+git add .
+git commit -m "add docker-compose  installation task"
+git push
+cd roles/server_config/Build_img/
+ls
+vim Dockerfile
+vim docker-compose.yml
+sudo chown docker-compose.yml
+sudi -i 
+sudo -i 
+ls -ltrh
+vim docker-compose.yml 
+sudo ls /etc/localtime 
+cat /etc/localtime 
+date
+ls
+docker-compose build
+vim docker-compose 
+vim docker-compose.yml 
+docker-compose build
+sudo docker-compose build
+docker images
+sudo docker images
+sudo -i 
+vi docker-compose.yml 
+sudo -i 
+sudo docker-compose build
+docker-compose up
+sudo docker-compose up
+date
+sudo docker ps
+sudo docker ps -A
+sudo docker ps -a
+sudo -i 
+sudo docker-compose build
+sudo -i 
+vim docker-compose.yml 
+sudo -i 
+vim Dockerfile
+sudo docker-compose build
+docker images
+sudo docker images
+sudo docker system prune
+sudo docker rmi  aee5d7a79ec7
+docker rm -f ntp-test
+sudo docker rm -f ntp-test
+sudo docker rm -f 1e3a536baf59
+sudo docker rmi  aee5d7a79ec7
+sudo docker iamges
+sudo docker images
+sudo docker rmi build_img_ntp-server
+sudo docker-compose build
+sudo docker images
+docker run -itd --name ntp-test build_img_ntp-server /bin/sh 
+sudodocker run -itd --name ntp-test build_img_ntp-server /bin/sh 
+sudo docker run -itd --name ntp-test build_img_ntp-server /bin/sh 
+sudo docker ps
+sudo docker ps -a
+date
+cat /etc/timezone 
+date
+sudo -i 
+vim /home/ubuntu/roles/server_config/Build_img/Dockerfile
+cd 
+cd /home/ubuntu/roles/
+ls
+git clone https://github.com/geerlingguy/ansible-role-ntp.git
+ls
+cd ansible-role-ntp/vars/
+ls
+vim Debian.yml 
+cd ..
+ls
+vim tasks/main.yml 
+vim defaults/main.yml 
+ls
+cd ..
+ls
+cd ..
+ls
+vim server.yaml 
+ansible-playbook server.yaml 
+systemctl status chrony
+systemctl status chronyd
+ntpdate
+ls
+vim roles/ansible-role-ntp/defaults/main.yml 
+ntpdate
+worker1
+exit
+sudo -i 
+tmux -s proxy1
+tmux new -s proxy1
+tmux attach-session -t 0
+sudo su
+storage1
+cd /home/ubuntu/
+ls
+cd roles/
+ansible --version
+cd ceph-ansible/
+ansible --version
+ansible-playbook -vv -i <your-inventory> site-container.yml
+ansible-playbook -vv -i cephhost  site-container.yml
+ansible-playbook -i cephhost  site-container.yml
+grep -rn "check for python" .
+vim ./raw_install_python.yml 
+sudo apt install platform-python
+ls -ltrh
+ansible --version
+sudo ln -s /usr/bin/python3 /usr/bin/pyhton
+ls -ltrh /usr/bin/
+ansible-playbook -i cephhost  site-container.yml
+ansible-playbook -i --v cephhost  site-container.yml
+ansible-playbook -i --vv cephhost  site-container.yml
+ansible-playbook  -vv-i -cephhost  site-container.yml
+ansible-playbook  -vv- i -cephhost  site-container.yml
+ansible-playbook  -vv -i cephhost  site-container.yml
+storage1
+cat /etc/hosts
+cd ..
+cd server_config/
+ls
+cd ..
+ls
+cd ..
+ls
+vim server.yaml 
+ansible-playbook server.yaml 
+ls
+vim roles/server_config/myhosts 
+ssh ubuntu@10.10.0.141
+sudo vim /etc/hosts
+ansible-playbook server.yaml 
+ls
+cd roles/
+ls
+cd ceph-ansible/
+ls
+ansible-playbook -vv -i cephhost site-container.yml
+ansible-playbook -i cephhost site-container.yml
+ls /usr/libexec/platform-python
+sudo ls /usr/libexec/platform-python
+sudo ls /usr/libexec/
+storage1
+ansible-playbook -i cephhost site-container.yml
+cd roles/ceph-ansible/
+ls
+ansible-playbook -i cephhost site-container.yml
+ceph-container-engine : install container packages] **************************
+Friday 17 December 2021  02:29:04 +0330 (0:00:00.113)       0:00:46.744 *******
+FAILED - RETRYING: install container packages (3 retries left).
+FAILED - RETRYING: install container packages (2 retries left).
+FAILED - RETRYING: install container packages (1 retries left).
+fatal: [storage2]: FAILED! => changed=false
+fatal: [storage1]: FAILED! => changed=false
+fatal: [storage3]: FAILED! => changed=false
+NO MORE HOSTS LEFT *****************************************************************
+PLAY RECAP *************************************************************************
+storage1                   : ok=49   changed=4    unreachable=0    failed=1    skipped=167  rescued=0    ignored=0
+grep -rn "ceph-container-engine" .
+vim ./infrastructure-playbooks/cephadm.yml
+ansible-playbook -i cephhost site-container.yml
+tmux 
+tmux
+tmux attach-session -t 0
+vim /home/ubuntu/roles/ceph-ansible/ls
+cd  /home/ubuntu/roles/ceph-ansible/
+ansible-playbook site.yml 
+Hi mester Houshangi
+Are you here?
+ansible-playbook site.yml 
+hi
+salam
+tmux attach-session -t 0
+cd roles/ceph-ansible/
+ls
+ansible-playbook site.yml 
+cd roles/ceph-ansible/
+ls
+ansible-playbook site.yml 
+vim /home/ubuntu/roles/ceph-ansible/roles/ceph-common/tasks/installs/debian_community_repository.yml
+cd /home/ubuntu/roles/
+ls
+cd ceph-ansible/
+ls
+ansible-playbook site.yml 
+grep -nri Failed to update apt cache
+grep -nri "Failed to update apt cache" .
+grep -nr "Failed to update apt cache" .
+egrep -nr Failed to update apt cache .
+egrep -nri "Failed to update apt cache" .
+egrep -nr "Failed to update apt cache" .
+egrep -nr Failed to update apt cache .
+history 
+grep -rn "Failed to update apt cache" .
+
+vim /roles/ceph-common/tasks/installs/debian_community_repository.yml
+vim roles/ceph-common/tasks/installs/debian_community_repository.yml
+ansible-playbook site.yml 
+tmux
+ansible-playbook site.yml 
+cd /home/ubuntu/roles/ceph-ansible/
+
+ansible-playbook site
+ansible-playbook site.yml 
+apt update
+sudo su
+ansible-playbook site.yml 
+vim /home/ubuntu/roles/ceph-ansible/roles/ceph-common/tasks/installs/debian_community_repository.yml
+ansible-playbook site.yml 
+sudo do-release-upgrade
+sudo do-release-upgrade -d
+sudo apt dist-upgrade
+sudo do-release-upgrade
+sudo do-release-upgrade -d
+tmux attach-session -t 0
+history
+tmux attach-session -t 0
+vim /home/ubuntu/roles/ceph-ansible/roles/ceph-common/tasks/installs/debian_community_repository.yml
+tmux
+cd roles/ceph-ansible/
+ls
+ansible-playbook site.yml 
+ansible --version
+sudo ansible --version
+sudo su #ansible --version
+sudo apt install ansible
+ansible-playbook site.yml 
+cat /etc/hosts
+worker1
+
+ssh ubuntu@10.10.0.138
+sudo vim /etc/hosts
+
+vim /home/ubuntu/roles/ceph-ansible/roles/ceph-common/tasks/installs/debian_community_repository.yml
+ansible-playbook site.yml 
+vim /home/ubuntu/roles/ceph-ansible/roles/ceph-common/tasks/installs/debian_community_repository.yml
+ansible-playbook site.yml 
+exit
+tmux 
+tmux attach-session -t 0
+history 
+history  | grep gpg
+sudo -i 
+history | grep wget
+history | grep "wget"
+ls /var/lib/apt/lists
+proxy 2
+proxy2
+cat /etc/pam.d/common-auth 

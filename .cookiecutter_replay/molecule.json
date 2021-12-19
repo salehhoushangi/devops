@@ -1,0 +1,12 @@
+{
+  "cookiecutter": {
+    "molecule_directory": "molecule",
+    "dependency_name": "galaxy",
+    "driver_name": "docker",
+    "provisioner_name": "ansible",
+    "scenario_name": "default",
+    "role_name": "ansible-role",
+    "verifier_name": "ansible",
+    "_template": "/usr/local/lib/python3.8/dist-packages/molecule/cookiecutter/molecule"
+  }
+}

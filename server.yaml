@@ -6,4 +6,5 @@
   become: true
 
   roles:
-    - server_config 
+    - server_config
+    - ansible-role-ntp 

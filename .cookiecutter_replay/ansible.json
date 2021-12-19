@@ -1,0 +1,8 @@
+{
+  "cookiecutter": {
+    "molecule_directory": "molecule",
+    "role_name": "ansible-role",
+    "scenario_name": "default",
+    "_template": "/usr/local/lib/python3.8/dist-packages/molecule/cookiecutter/scenario/verifier/ansible"
+  }
+}
